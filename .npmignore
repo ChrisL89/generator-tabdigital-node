@@ -1,0 +1,14 @@
+# IDE files
+.idea/
+.vscode
+
+# node environment
+node_modules
+.npmrc
+npm-debug.log
+yarn-error.log
+
+# build _stuff_
+.buildkite/
+scripts/
+yeoman-logo.png

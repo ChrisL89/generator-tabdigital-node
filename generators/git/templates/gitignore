@@ -1,0 +1,12 @@
+# IDE files
+.idea/
+.vscode
+
+# Deployment
+.env
+
+# node environment
+node_modules
+.npmrc
+npm-debug.log
+yarn-error.log

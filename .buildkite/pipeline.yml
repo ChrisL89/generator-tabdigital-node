@@ -1,0 +1,11 @@
+steps:
+- name: ':school_satchel: Run Tests'
+  command: scripts/cibuild.sh
+  agents:
+    os: linux
+- block: ":rocket: Publish"
+- wait
+- name: ':rocket:  Publish'
+  command: npm publish
+  agents:
+    os: linux
